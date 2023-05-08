@@ -51,3 +51,13 @@ def test_multiplicacao():
 
     # then the sum should be 10
     assert output == 10
+
+def test_divisao():
+    valor1 = 5
+    valor2 = 2
+
+    # when we calculate the divisao
+    output = methods.divisao_calculadora(valor1, valor2)
+
+    # then the sum should be 2.5
+    assert output == 2.5
