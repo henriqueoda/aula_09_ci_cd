@@ -31,4 +31,14 @@ def test_soma():
 
     # then the sum should be 7
     assert output == 7
+
+def test_subtracao():
+    valor1 = 5
+    valor2 = 2
+
+    # when we calculate the subtracao
+    output = methods.subtracao_calculadora(valor1, valor2)
+
+    # then the sum should be 3
+    assert output == 3
     
