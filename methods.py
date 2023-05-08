@@ -5,3 +5,7 @@ def area_of_rectangle(width, height):
 def perimeter_of_rectangle(width, height):
     perimeter = 2 * (width + height)
     return perimeter
+
+def soma_calculadora(valor1, valor2):
+    soma = valor1 + valor2
+    return soma

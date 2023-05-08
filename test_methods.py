@@ -21,3 +21,14 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+
+def test_soma():
+    valor1 = 5
+    valor2 = 2
+
+    # when we calculate the sum
+    output = methods.soma_calculadora(valor1, valor2)
+
+    # then the sum should be 7
+    assert output == 7
+    
