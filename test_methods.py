@@ -42,3 +42,12 @@ def test_subtracao():
     # then the sum should be 3
     assert output == 3
     
+def test_multiplicacao():
+    valor1 = 5
+    valor2 = 2
+
+    # when we calculate the multiplicacao
+    output = methods.multiplicacao_calculadora(valor1, valor2)
+
+    # then the sum should be 10
+    assert output == 10
